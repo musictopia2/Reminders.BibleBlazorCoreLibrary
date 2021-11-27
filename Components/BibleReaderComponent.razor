@@ -1,0 +1,26 @@
+﻿@if (_loading == true)
+{
+    return;
+}
+<LeftOverLayout>
+    <TopContent>
+        <div style="font-size: 30px; font-weight: bold;">
+            Verses To Read: @DataContext!.BookName
+        </div>
+    </TopContent>
+    <MainContent>
+        <ReaderComponent CanFocusFirst="true"
+                         RenderList="DataContext!.Verses"
+                         Height="100%"
+                         DataContext="_tempModel"
+                         Context="verse"
+                         Width="100%">
+            @verse
+        </ReaderComponent>
+    </MainContent>
+    <BottomContent>
+        <button @onclick="FinishedReading" class="btn btn-primary" style="font-size: 30px; font-weight: bold">
+            Finished Reading
+        </button>
+    </BottomContent>
+</LeftOverLayout>

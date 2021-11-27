@@ -1,0 +1,12 @@
+﻿@if (_status == EnumStatus.Starting)
+{
+    <h1>Checking For Reading.  Please Wait</h1>
+    return;
+}
+@if (_status == EnumStatus.FinishedReading)
+{
+    <h1>Last Checked Reading On @DateTime.Now </h1>
+    <h1>Next reading is @DataContext!.NextDate</h1>
+    return;
+}
+<BibleReaderComponent FinishedReading="CheckNextReadingAsync" />
