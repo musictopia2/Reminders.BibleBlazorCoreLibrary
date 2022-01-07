@@ -6,3 +6,4 @@ global using BibleDatabaseLibrary.MainClasses;
 global using Microsoft.AspNetCore.Components;
 global using Reminders.BibleBlazorCoreLibrary.ViewModels;
 global using BasicBlazorLibrary.Components.Basic;
+global using BibleDatabaseLibrary.Services;
