@@ -32,13 +32,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BasicBlazorLibrary" Version="3.0.1" />
-    <PackageReference Include="BibleDatabaseLibrary" Version="2.0.2" />
-    <PackageReference Include="CommonBasicLibraries" Version="5.0.6" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.0" />
-    <PackageReference Include="Reminders.BibleCoreLibrary" Version="1.0.1" />
-    <PackageReference Include="Reminders.BlazorCoreLibrary" Version="1.0.2" />
-    <PackageReference Include="Reminders.CoreLibrary" Version="1.0.1" />
+    <PackageReference Include="BasicBlazorLibrary" Version="4.0.1" />
+    <PackageReference Include="BibleDatabaseLibrary" Version="3.0.1" />
+    <PackageReference Include="CommonBasicLibraries" Version="7.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.2" />
+    <PackageReference Include="Reminders.BibleCoreLibrary" Version="2.0.1" />
+    <PackageReference Include="Reminders.BlazorCoreLibrary" Version="2.0.1" />
+    <PackageReference Include="Reminders.CoreLibrary" Version="2.0.1" />
   </ItemGroup>
 
 </Project>
